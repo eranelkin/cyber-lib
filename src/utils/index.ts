@@ -8,6 +8,7 @@ const getPDFFormatedDate = () => {
 };
 
 const getFormatedNumber = (num: any) => {
+  console.log('first')
   return new Intl.NumberFormat().format(num);
 };
 
