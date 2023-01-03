@@ -1,9 +1,9 @@
 {
-  "name": "@eran_elkin_cyberpion/cyberpion-ui",
+  "name": "@eranelkin/cyber-lib",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
+    "registry": "https://npm.pkg.github.com/eranelkin"
   },
-  "version": "0.1.0",
+  "version": "0.1.6",
   "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c",
