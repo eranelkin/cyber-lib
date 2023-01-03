@@ -1,1 +1,1 @@
-export { default as NA } from "./NA";
+export { default } from "./NA";

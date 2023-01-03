@@ -1,4 +1,4 @@
-export { default as Chart } from "./Chart/Chart";
+export { default } from "./Chart/Chart";
 // export { default as useCharts } from "./hooks/useCharts";
 // export { default as Legend } from "./Legend/Legend";
 
