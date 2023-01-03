@@ -1,1 +1,1 @@
-export { default as ChipsPanel } from "./ChipsPanel";
+export { default  } from "./ChipsPanel";

@@ -1,1 +1,1 @@
-export { default as ServiceInfo } from "./ServiceInfo";
+export { default } from "./ServiceInfo";

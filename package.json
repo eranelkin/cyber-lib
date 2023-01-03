@@ -3,8 +3,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/eranelkin"
   },
-  "version": "0.1.13",
-  "description": "A simple template for a custom React component library",
+  "version": "0.1.14",
+  "description": "Cyberpion-UI react components Library",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
@@ -12,7 +12,6 @@
     "build-storybook": "build-storybook",
     "build": "tsc"
   },
-  "author": "YOUR_NAME",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",

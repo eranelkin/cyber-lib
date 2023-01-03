@@ -1,1 +1,1 @@
-export { default as RiskIndicator } from "./RiskIndicator";
+export { default  } from "./RiskIndicator";

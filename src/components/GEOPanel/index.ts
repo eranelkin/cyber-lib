@@ -1,1 +1,1 @@
-export { default as GEOPanel } from "./GEOPanel";
+export { default  } from "./GEOPanel";
