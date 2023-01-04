@@ -22,7 +22,7 @@ DataPanelMore.args = {
   title: "Data Panel with more props",
   titleTextSize: 30,
   textSize: 20,
-  upper: true,
+  titleUpper: true,
   children: "33345",
   bgColor: "red",
 };

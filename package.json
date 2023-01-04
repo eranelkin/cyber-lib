@@ -10,8 +10,7 @@
     "build-storybook": "build-storybook",
     "rollup": "rollup -c",
     "test": "jest",
-    "build": "tsc",
-    "storybook": "start-storybook -p 6006"
+    "build": "tsc"
   },
   "license": "ISC",
   "devDependencies": {
