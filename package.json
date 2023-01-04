@@ -3,14 +3,15 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/eranelkin"
   },
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Cyberpion-UI react components Library",
   "scripts": {
+    "start": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "rollup": "rollup -c",
     "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build": "tsc"
+    "build": "tsc",
+    "storybook": "start-storybook -p 6006"
   },
   "license": "ISC",
   "devDependencies": {
@@ -72,5 +73,6 @@
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {}
 }
