@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import NA from "../NA/NA";
 
 const variantsColors = {
   A: { bg: "#1aa88433", border: "#1AA884" },

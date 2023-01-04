@@ -1,0 +1,18 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+import RiskIndicator from "components/RiskIndicator/RiskIndicator";
+
+<Meta title="UI/RiskIndicator" component={RiskIndicator} />
+
+export const Template = (args) => <RiskIndicator {...args} />;
+
+<Canvas>
+  <Story
+    name="score"
+    args={{
+      type: "ranks",
+      letter: "A",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>

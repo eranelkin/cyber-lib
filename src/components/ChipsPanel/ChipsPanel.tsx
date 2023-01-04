@@ -1,8 +1,8 @@
 import React from "react";
 import Chip from "@mui/material/Chip";
-import Text from "../Text/Text";
 import { Link } from "@mui/material";
-import NA from "../NA/NA";
+import Text from "components/Text";
+import NA from "components/NA";
 
 import "./chipsPanel.scss";
 interface ChipsPanelProps {

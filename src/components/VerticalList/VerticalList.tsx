@@ -1,9 +1,9 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import Text from "../Text/Text";
-import NA from "../NA/NA";
+import Link from "@mui/material/Link";
+import Text from "components/Text";
+import NA from "components/NA";
 import VerticalItem from "./VerticalItem";
-import { Link } from "@mui/material";
 import VerticalItemEmptyState from "./EmptyState/VerticalItemEmptyState";
 
 interface LegendProps {

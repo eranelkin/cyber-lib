@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Text from "../Text/Text";
 import Grid from "@mui/material/Grid";
+import Text from "components/Text";
+import NA from "components/NA";
 import { getFormatedNumber, isNum } from "utils";
-import NA from "components/NA/NA";
 
 import "./data-panel.scss";
 

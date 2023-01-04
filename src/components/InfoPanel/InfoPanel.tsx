@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Text from "../Text/Text";
+import Text from "components/Text";
 import "./info-panel.scss";
 
 interface StylesInfoPanelProps {

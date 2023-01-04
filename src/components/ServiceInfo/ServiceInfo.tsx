@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar, Grid } from "@mui/material";
-import Text from "../Text/Text";
+import Text from "components/Text";
 interface ServiceInfoProps {
   appData: any;
 }

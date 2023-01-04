@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import BarsItem from "./BarItem";
-import Text from "../Text/Text";
+import Text from "components/Text";
 import clsx from "clsx";
 
 const MAX_BAR_WIDTH = 200;

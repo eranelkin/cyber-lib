@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import getDefaultConfigByType from "../configs/chartsConfigs";
-import { mergeObject } from "../../../utils";
+import { mergeObject } from "utils";
 
 export const chartType = {
   Line: "line",
