@@ -10,6 +10,7 @@ interface IChart {
     colors?: string[];
     chartOptions?: any;
     tooltipOptions?: any;
+    tooltipType?: any;
 }
 declare const Chart: React.FC<IChart>;
 export default Chart;

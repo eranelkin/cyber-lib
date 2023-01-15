@@ -92,8 +92,8 @@ const RiskIndicator: React.FC<RiskIndicatorProps> = ({
   type = "ranks",
   value,
   letter,
+  color = "#000000",
   size = "m",
-  color,
 }) => {
   if (type === "legend" && !!color) {
     const legendSize = legendSizes[size];

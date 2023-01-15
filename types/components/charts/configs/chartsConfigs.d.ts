@@ -14,9 +14,6 @@ declare const getDefaultConfigByType: (series: any, chartType: string, colors?: 
     legend: {
         enabled: boolean;
     };
-    tooltip: {
-        enabled: boolean;
-    };
     chart: {
         plotBackgroundColor: null;
         plotBorderWidth: number;

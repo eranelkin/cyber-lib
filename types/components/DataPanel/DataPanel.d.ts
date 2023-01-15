@@ -17,5 +17,5 @@ interface DataPanelProps {
     style?: React.CSSProperties;
     upper?: boolean;
 }
-declare const DataPanel: ({ title, titleTextSize, titleWeight, titleStyle, textColor, bgColor, textSize, weight, family, upper, titleUpper, rightText, style, rightTextClassName, children, }: DataPanelProps) => JSX.Element;
+declare const DataPanel: ({ title, titleTextSize, titleWeight, titleStyle, titleUpper, textColor, bgColor, textSize, weight, family, upper, rightText, style, rightTextClassName, children, }: DataPanelProps) => JSX.Element;
 export default DataPanel;

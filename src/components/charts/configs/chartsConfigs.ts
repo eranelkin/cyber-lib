@@ -21,9 +21,6 @@ const pieConfig = (series: any, colors?: string[]) => ({
   legend: {
     enabled: false,
   },
-  tooltip: {
-    enabled: false,
-  },
   chart: {
     plotBackgroundColor: null,
     plotBorderWidth: 0,
@@ -117,7 +114,7 @@ const lineConfig = (series: any, colors?: string[]) => ({
   plotOptions: {
     series: {
       marker: {
-        fillColor: "#FFFFFF",
+        fillColor: "#234222",
         lineWidth: 3,
         lineColor: null,
         radius: 5,
@@ -140,11 +137,7 @@ const lineConfig = (series: any, colors?: string[]) => ({
   yAxis: {
     visible: true,
   },
-  series: [
-    {
-      data: series,
-    },
-  ],
+  series,
   chart: { marginLeft: 30 },
 });
 

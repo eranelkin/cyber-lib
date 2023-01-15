@@ -6,6 +6,6 @@ export { default as InfoPanel } from "./InfoPanel";
 export { default as RiskIndicator } from "./RiskIndicator";
 export { default as ServiceInfo } from "./ServiceInfo";
 export { default as VerticalList } from "./VerticalList";
-export { default as Chart } from "./charts";
+export { Chart, Tooltip } from "./charts";
 export { default as Text } from "./Text";
 export { default as NA } from "./NA";

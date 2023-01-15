@@ -1,4 +1,5 @@
-export { default } from "./Chart/Chart";
+export { default as Chart } from "./Chart";
+export { default as Tooltip } from "./Tooltip";
 export declare const chartType: {
     Line: string;
     Pie: string;
