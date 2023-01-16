@@ -125,9 +125,7 @@ declare const getDefaultConfigByType: (series: any, chartType: string, colors?: 
     yAxis: {
         visible: boolean;
     };
-    series: {
-        data: any;
-    }[];
+    series: any;
     chart: {
         marginLeft: number;
     };
